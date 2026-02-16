@@ -1,4 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
 /* Universal settings */
 * {
     color: var(--white-complement);
@@ -20,19 +29,33 @@ body {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    background-color: var(--secondary-accent);
+    background-image: linear-gradient(135deg, var(--secondary-accent), var(--primary-color));
+    /* background-color: var(--secondary-accent);
     align-content: center;
-    align-items: center;
+    align-items: center; */
     padding: 20px;
+    font-family: manrope;
 }
 
-nav {
+
+header {
     grid-column: 1/4;
     grid-row: 1/2;
-    padding: 20px;
-    margin: auto;
-    min-height: 100px;
+    padding: 15px;
+    margin: 15px;
+    min-height: 150px;
     justify-items: center;
+    background: var(--primary-color);
+    /* background-color: linear-gradient(135deg, var(--dark-contrast), var(--dark-contrast)); */
+    border: 2px solid var(--white-complement);
+}
+
+header .title {
+    font-size: 10em;
+}
+
+header h2 {
+    padding: 0.25em;
 }
 
 .banner {
