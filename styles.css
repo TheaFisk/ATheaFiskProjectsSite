@@ -16,7 +16,6 @@
     --white-complement: #f5f3f5;
 }
 
-
 body {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -61,6 +60,7 @@ nav {
     padding: 20px;
 }
 
+/* Remember these cards are all within card-container */
 .card {
     border: 2px solid var(--secondary-accent);
     padding: 20px;
@@ -80,6 +80,7 @@ nav {
     background-color: var(--secondary-color);
 }
 
+/* end of cards */
 .secondsection {
     background-color: var(--primary-color);
     color: var(--dark-contrast);
