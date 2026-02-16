@@ -1,0 +1,69 @@
+
+
+* {
+    color: var(--white-complement);
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1b264f;
+    --secondary-color: #274690;
+    --secondary-accent: #576ca8;
+    --dark-contrast: #302b27;
+    --white-complement: #f5f3f5;
+}
+
+
+body {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
+    background-color: var(--secondary-accent);
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.banner {
+    background-color: var(--secondary-color);
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.banner img {
+    justify-self: center;
+    padding: 10px;
+}
+
+.card {
+    border: 5px, solid, var(--dark-contrast);
+    grid-row: auto;
+    padding: 10px;
+}
+
+#card1 {
+    grid-column: auto;
+    background-color: var(--primary-color);
+}
+#card2 {
+    grid-column: auto;
+    background-color: var(--secondary-color);
+}
+#card3 {
+    grid-column: auto;
+    background-color: var(--secondary-color);
+}
+
+.secondsection {
+    background-color: var(--primary-color);
+    color: var(--dark-contrast);
+    justify-items: center;
+    grid-row: 5 / 6;
+    grid-column: 1/4;
+}
+
