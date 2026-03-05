@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* universal settings */
+* {
+    /* color: var(--white-complement); */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* variable setting */
+:root {
+    --primary-color: grey;
+    --secondary-color: #000000;
+    --secondary-accent: #ffffff;
+    --dark-contrast: #660000f1;
+    --white-complement: #e6fffc;
+}
+
+body {
+    display:grid; /*
+    grid-template-rows: 1.2fr 1fr 1fr 1fr 1fr 1fr 0.2fr;
+    background-image: linear-gradient(135deg, var(--secondary-accent) 30% , var(--primary-color) 70%); */
+    /* background-color: var(--secondary-accent);
+    align-content: center;
+    align-items: center; 
+    padding: 20px; */
+    font-family: manrope;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+a {
+    /*background-color: rgb(17, 0, 44); */
+    padding-right: .5em;
+    margin: 1em;
+    font-size: 1.3em;
+    border-radius: 0;
+    color: var(--white-complement); 
+    
+}
+
+nav {
+    padding-top: 2.5em;
+    padding-right: 1.5em;
+
+}
+
+a:hover {
+    color: #000000;
+    background-color: #e6fffc;
+}
+
+
+header {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    position: fixed;
+    justify-items: center;
+    z-index: 2;
+    width: 100%;
+    /*
+    text-shadow: 2px 2px 2px #000000;
+    text-decoration: underline #000000; */
+    mix-blend-mode: difference;
+    justify-items: right;
+    
+    /*padding: 15px;
+    margin: 15px;
+    min-height: 150px; */
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.87) 0%, rgba(0, 0, 0, 0) 95% );
+     border: 2px solid var(--white-complement);  */
+    
+}
+
+header .nameTitle {
+    justify-self: left;
+    grid-column: 1/2;
+    font-size: 2.5em;
+    border-radius: 0;
+    color: var(--white-complement);
+    margin-left: 1em;
+    padding-top: 0.6em;
+
+}
+
+header .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9em;
+    padding-bottom: -1em;
+}
+
+header h2 {
+    padding: 0.25em;
+    font-size: 2em;
+}
