@@ -105,35 +105,13 @@ header h2 {
     font-size: 2em;
 }
 
-.sectionOne {
-    grid-row: 2/3;
-    display: grid;
-    justify-content: center;
-}
 
-.projectOne {
-    grid-row: 3/4;
-    display: grid;
-    justify-content: center;
-}
 
-.projectTwo {
-    grid-row: 4/5;
-    display: grid;
-    justify-content: center;
-}
 
-.projectThree {
-    grid-row: 5/6;
-    display: grid;
-    justify-content: center;
-}
 
-.projectFour {
-    grid-row: 6/7;
-    display: grid;
-    justify-content: center;
-}
+
+
+
 
 footer {
     color: var(--white-complement); 
