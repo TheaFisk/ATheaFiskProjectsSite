@@ -244,6 +244,15 @@ header h2 {
     margin-top: 3em;
     margin-bottom: 4em;
 }
+
+/*
+
+.card-container .card:hover {
+    border: 5px solid black;
+}
+
+*/
+
 #card1 {
     /* grid-column: 1 / 2; */
     background-color: var(--secondary-color);
