@@ -1,4 +1,16 @@
 
+/* TO-DO List
+    1. fix the css variables. The colors are a mess, and most colors are listed out instead of using variables. 
+    2. Handle re-sizing on the site
+    3. Add Content to the subpages
+    4. Add a contact page?
+    5. Add JavaScript. Buttons, fun effects, creative and unique.
+    6. Take pictures of real projects, add some documentation for different parts of things.
+
+*/
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 .manrope-font {
